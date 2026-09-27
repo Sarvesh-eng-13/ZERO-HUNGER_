@@ -1,1 +1,363 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annapurna | Food is Seva</title>
+<link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f6ef;
+            color: #333;
+        }
+
+        header {
+            background-color: #174c3c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            color: #f4b942;
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+
+        header h2 {
+            color: #ffffff;
+        }
+
+        nav {
+            background-color: #10392d;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        nav a:hover {
+            color: #f4b942;
+        }
+
+        .hero {
+            background-color: #fcebd0;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            color: #174c3c;
+            font-size: 32px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #e9a52b;
+            color: black;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #174c3c;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #cccccc;
+        }
+
+        .card h3 {
+            color: #174c3c;
+        }
+
+        .card p {
+            line-height: 1.6;
+        }
+
+        .vision {
+            background-color: #e8f0e8;
+        }
+
+        .donate {
+            background-color: #174c3c;
+            color: white;
+        }
+
+        .donate h2 {
+            color: #f4b942;
+        }
+
+        .contact {
+            background-color: #e8f0e8;
+        }
+
+        input, textarea {
+            width: 90%;
+            max-width: 400px;
+            padding: 12px;
+            margin: 10px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #174c3c;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #10392d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        footer a {
+            color: #f4b942;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .hero h2 {
+                font-size: 26px;
+            }
+
+            .card {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="home">
+        <h1>🌾 ANNAPURNA</h1>
+        <h2>अन्नं हि पूर्णब्रह्म</h2>
+        <p>Food is Sacred. Sharing is Seva.</p>
+        <p>अन्नदानं महादानम्</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#programs">Our Programs</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>अन्नदानं महादानम्</h2>
+
+        <p>
+            The gift of food is the greatest gift.
+            Annapurna believes that no one should sleep hungry.
+            Together, we can share food, spread kindness,
+            and build a hunger-free world.
+        </p>
+
+        <a href="#donate" class="btn">Support Our Mission</a>
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Annapurna</h2>
+
+            <p>
+                Annapurna is a student-led NGO initiative
+                inspired by Indian culture and the belief
+                that food is sacred. Our aim is to reduce
+                hunger, prevent food wastage, and help
+                communities in need.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>
+                        A world where everyone has access
+                        to healthy and nutritious food.
+                        सर्वे भवन्तु सुखिनः
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Our Mission</h3>
+                    <p>
+                        To promote food donation, reduce
+                        food waste, and encourage people
+                        to serve society through kindness.
+                        सेवा परमो धर्मः
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="vision" id="programs">
+        <div class="container">
+            <h2>Our Programs</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🍲 Anna Daan</h3>
+                    <p>
+                        Encouraging food donations and
+                        sharing meals with people in need.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🌾 Save Food Campaign</h3>
+                    <p>
+                        Spreading awareness about food
+                        wastage and responsible consumption.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🤝 Seva Activities</h3>
+                    <p>
+                        Bringing students and communities
+                        together to help those facing hunger.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="donate" id="donate">
+        <div class="container">
+            <h2>Be a Part of the Change</h2>
+
+            <p>
+                Every meal shared is a step towards
+                a hunger-free world.
+            </p>
+
+            <p>
+                अन्नदानं महादानम्
+            </p>
+
+            <a href="#contact" class="btn">Join Our Seva</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <p>
+                Want to volunteer or support our mission?
+                Get in touch with us!
+            </p>
+
+            <form onsubmit="sendMessage(event)">
+
+                <input type="text" id="name"
+                       placeholder="Enter Your Name" required>
+                <br>
+
+                <input type="email" id="email"
+                       placeholder="Enter Your Email" required>
+                <br>
+
+                <textarea id="message" rows="5"
+                          placeholder="Write Your Message"
+                          required></textarea>
+                <br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <footer>
+        <h2>🌾 ANNAPURNA</h2>
+
+        <p>अन्नं हि पूर्णब्रह्म</p>
+        <p>Food is Sacred. Sharing is Seva.</p>
+
+        <p>Email: annapurna@example.com</p>
+
+        <p>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+        </p>
+
+        <p>© 2026 Annapurna. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function sendMessage(event) {
+            event.preventDefault();
+
+            var name = document.getElementById("name").value;
+
+            document.getElementById("result").innerHTML =
+                "Thank you, " + name + "! Your message has been received.";
+
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+        }
+    </script>
+
+</body>
+</html>
